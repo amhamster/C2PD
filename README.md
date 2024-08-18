@@ -1,4 +1,4 @@
-# Guided Depth Super-resolution with Continuity-constrained Pixelwise Gradient Deformation
+# C2PD: Continuity-Constrained Pixelwise Deformation for Guided Depth Super-Resolution
 
 ## Dependencies
 
@@ -55,9 +55,16 @@ python train.py --scale=8
 
 
 
+
+
 ## Testing
 
+Test on synthetic datasets: 
 ```
 python test.py --scale=8
 ```
 
+Test on real-world RGB-D-D:
+```
+python test.py --real True
+```
